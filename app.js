@@ -1,3 +1,6 @@
+let tg = window.Telegram.WebApp;
+
+tg.expand();
 window.addEventListener("DOMContentLoaded", event => {
     console.log("DOM fully loaded and parsed")
     const themeButton = document.querySelector(".btn")
